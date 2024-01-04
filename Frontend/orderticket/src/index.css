@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.ant-carousel {
+  border-radius: 8px;
+  background-color: #1f1f1f;
+  border: 16px;
+  padding: 16px;
+}
+.ant-carousel .slick-slide {
+  background: #434343;
+  padding: 16px;
+  padding-bottom: 48px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ tùy ý */
+  text-align: center;
+}
+
+.ant-switch-checked .ant-switch-handle::before {
+  background-color: white; /* Thay đổi màu ở đây */
+}
+.ant-switch-handle::before {
+  background-color: black; /* Thay đổi màu ở đây */
+}
